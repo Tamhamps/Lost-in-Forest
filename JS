@@ -1,0 +1,33 @@
+function goToPage1() {
+    hideAllPages();
+    document.getElementById("page1").style.display = "block";
+}
+
+function goToPage2() {
+    hideAllPages();
+    document.getElementById("page2").style.display = "block";
+}
+
+function goToPage3() {
+    hideAllPages();
+    document.getElementById("page3").style.display = "block";
+}
+
+function goToPage4() {
+    hideAllPages();
+    document.getElementById("page4").style.display = "block";
+}
+
+function goToPage5() {
+    hideAllPages();
+    document.getElementById("page5").style.display = "block";
+}
+
+// Helper function to hide all pages
+function hideAllPages() {
+    document.getElementById("page1").style.display = "none";
+    document.getElementById("page2").style.display = "none";
+    document.getElementById("page3").style.display = "none";
+    document.getElementById("page4").style.display = "none";
+    document.getElementById("page5").style.display = "none";
+}
